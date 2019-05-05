@@ -1,9 +1,16 @@
 {
   "name": "wt-cli",
   "version": "1.0.0",
-  "description": "generate react project",
-  "main": "bin/cli.js",
+  "keywords": [
+    "react",
+    "react-cli",
+    "wt-cli"
+  ],
+  "description": "Create a configurable app",
   "repository": "git@github.com:wenhongjie/wt-cli.git",
+  "engines": {
+    "node": ">=8"
+  },
   "author": "wen <emailwen@qq.com>",
   "license": "MIT",
   "bin": {
@@ -12,7 +19,7 @@
   "dependencies": {
     "colors": "^1.3.3",
     "download-git-repo": "^1.1.0",
-    "inquirer": "^6.2.2",
+    "inquirer": "^6.3.1",
     "ora": "^3.2.0",
     "yargs": "^13.2.2"
   }
